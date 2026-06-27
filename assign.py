@@ -1,0 +1,15 @@
+num=10
+num+=5
+print(f"after +=5 : {num}")
+num-=3
+print(f"after -=3 : {num}")
+num*=2
+print(f"after *=2 : {num}")
+num/=4
+print(f"after /=4 : {num}")
+num//=3
+print(f"after //=3 : {num}")
+num%=2
+print(f"after %=2 : {num}")
+num**=3
+print(f"after **=3 : {num}")

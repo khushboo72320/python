@@ -1,0 +1,14 @@
+# Get input from user
+name = input("Enter Student Name: ")
+marks = float(input("Enter Marks Obtained: "))
+total=100
+if marks>=33 :
+    status="Pass"
+else:
+    status="Fail"
+# Determine pass/fail status (passing mark is 40)
+#status = "Pass" if marks >= 40 else "Fail"
+print(f"Student Name: {name}")
+print(f"Marks: {marks} / 100")
+print(f"Status: {status}")
+
